@@ -1,4 +1,4 @@
-# cms-dealer-portal
+# CMS Bootstrap Project
 
 ## Styling library
 
