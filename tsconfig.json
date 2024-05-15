@@ -15,12 +15,10 @@
     "paths": {
       "@/*": ["./src/*"],
       "@hooks/*": ["./src/hooks/*"],
-      "@views/*": ["./src/components/views/*"],
       "@ui/*": ["./src/components/ui/*"],
       "@layouts/*": ["./src/components/layouts/*"],
-      "@elements/*": ["./src/components/elements/*"],
       "@elements": ["./src/components/elements/index"],
-      "@lib/*": ["./src/lib/*"],
+      "@lib/*": ["./src/lib/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

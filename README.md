@@ -21,7 +21,7 @@ https://ui.shadcn.com/docs/components/accordion
 
 You can also customize shadcn component by editing the file under `/src/components/ui` directory.
 
-note: Shadcn uses Radix UI under the hood. See Radix UI Component API Reference here -> [radix-ui](https://www.radix-ui.com/primitives/docs/components/accordion)
+ps: Shadcn uses Radix UI under the hood. See Radix UI Component API Reference [here](https://www.radix-ui.com/primitives/docs/components/accordion)
 
 ## Hooks
 
@@ -34,13 +34,13 @@ To create a custom hook create a file under `/src/hooks` directory
 Clone the project
 
 ```bash
-  git clone https://Rafli-Dewanto@bitbucket.org/erafone/cms-dealer-portal.git
+  git clone https://github.com/FrontendEraspace/cms-bootstrap.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd cms-dealer-portal
+  cd cms-bootstrap
 ```
 
 Install dependencies

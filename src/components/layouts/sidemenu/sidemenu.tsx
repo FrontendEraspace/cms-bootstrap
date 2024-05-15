@@ -19,7 +19,7 @@ const SideMenu = forwardRef<HTMLDivElement, Props>((props, ref) => {
         <SideMenuDesktop />
       </Show>
       <Show when={isMobile}>
-        <SideMenuMobile isOpen={isOpen} setIsOpen={onClose} isMobile={isMobile} ref={ref} />
+        <SideMenuMobile isOpen={isOpen} onClose={onClose} isMobile={isMobile} ref={ref} />
       </Show>
     </>
   );

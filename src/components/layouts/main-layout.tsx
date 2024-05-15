@@ -2,8 +2,8 @@ import useDisclosure from "@hooks/use-disclosure";
 import React, { useRef } from "react";
 import { useOnClickOutside } from "usehooks-ts";
 import { Flex, Box } from "@elements";
-import { Header } from "@views/dashboard/header";
-import { SideMenu } from "@views/dashboard/sidemenu";
+import { SideMenu } from "./sidemenu";
+import { Header } from "./header";
 
 export default function MainLayout({ children }: { children: React.ReactNode }) {
   const { onClose, isOpen, onOpen } = useDisclosure(false);
